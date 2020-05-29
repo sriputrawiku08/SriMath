@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#E40BBB</color>
+    <color name="pinkdark">#640D5C</color>
+    <color name="pinkmuda">#F094F7</color>
+    <color name="putih">#FBF9FC</color>
+    <color name="biru">#0B41E4</color>
+    <color name="birudark">#0D1664</color>
+    <color name="birumuda">#6F87E9</color>
+</resources>

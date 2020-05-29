@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KurangActivity"
+    android:orientation="vertical"
+    android:background="@drawable/mat">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ini pengurangan"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:textColor="@color/pinkdark"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:id="@+id/angkapertama"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:id="@+id/angkakedua"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tampilkan hasilnya = "
+        android:textSize="12pt"
+        android:layout_gravity="center"
+        android:id="@+id/tomboljumlah"
+        style="@style/btnStyleBiru"/>
+    <TextView
+        android:id="@+id/texthasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="hasilnya"
+        android:textSize="20pt"
+        android:textStyle="italic|bold" />
+
+</LinearLayout>
