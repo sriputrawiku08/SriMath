@@ -6,27 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".KurangActivity"
     android:orientation="vertical"
-    android:background="@drawable/mat">
+    android:background="@color/putih">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ini pengurangan"
         android:textSize="15pt"
         android:gravity="center"
-        android:textColor="@color/pinkdark"
+        android:textColor="@color/hitam"
         android:textStyle="bold"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15pt"
         android:id="@+id/angkapertama"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:hint="angka pertama"
+        android:textColor="@color/hitam"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15pt"
         android:id="@+id/angkakedua"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:hint="angka kedua"
+        android:textColor="@color/hitam"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -43,6 +48,7 @@
         android:gravity="center"
         android:text="hasilnya"
         android:textSize="20pt"
-        android:textStyle="italic|bold" />
+        android:textStyle="italic|bold"
+        android:textColor="@color/hitam"/>
 
 </LinearLayout>

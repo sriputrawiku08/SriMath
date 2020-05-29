@@ -7,4 +7,8 @@
     <color name="biru">#0B41E4</color>
     <color name="birudark">#0D1664</color>
     <color name="birumuda">#6F87E9</color>
+    <color name="hitam">#000000</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
 </resources>
